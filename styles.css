@@ -13,31 +13,24 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 16px;
-    flex: auto;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 16px 0px;
 }
 
 .h-text {
-    flex: auto;
-    padding: 16px;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
 }
 
-.header-links {
-    display: flex;
-    flex: auto;
-    gap: 16px;
-
-}
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px;
 }
 
 a {
@@ -56,9 +49,15 @@ a {
     flex: auto;
 }
 
-.main img {
-    width: 500px;
-    height: auto;
+.m-img {
+    background-color: #515157;
+    color: #E5E7EB;
+    width: 525px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .m-text {
@@ -80,16 +79,15 @@ a {
 }
 
 .book {
-    background-color: #e5e7eb;
+    background-color: #3882f6;
     padding: 8px;
     border-radius: 8px;
-    border: 16px #e5e7eb;
+    border: 16px;
     width: 125px;
     font-size: 20px;
-    color: #461400;
+    color: #f9faf8;
     font-weight: bold;
-    margin-top
-    : 8px;
+    margin-top: 8px;
 }
 
 .info {
@@ -110,13 +108,14 @@ a {
 .cards {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
-.card img {
+.i-img {
     object-fit: cover;
     height: 175px;
     width: 175px;
-    border: 6px solid #924200;
+    border: 4px solid #3882f6;
     border-radius: 25px;
 }
 
@@ -158,24 +157,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px;
+    padding: 6em;
     flex: auto;
 }
 
 .a-bubble {
-    background-color: #461400;
-    width: 1000px;
-    height: 150px;
+    background-color: #3882f6;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #e5e7eb;
-    border-radius: 18px;
-    margin: 36px;
+    padding: 26px;
+    border-radius: 8px;
 }
 
 .a-text {
-    padding: 18px;
+    padding: 24px 72px;
 }
 
 .a-title {
@@ -185,21 +182,20 @@ a {
 
 
 .a-button {
-    background-color: #e5e7eb;
-    padding: 8px;
+    background-color: #3882f6;
+    padding: 12px 16px;
+    border: 2px solid #e5e7eb;
     border-radius: 8px;
-    border: 16px #e5e7eb;
-    width: 125px;
     font-size: 20px;
-    color: #461400;
+    color: #e5e7eb;
     font-weight: bold;
-    gap: 36px;
+    margin: 0px 72px;
 }
 
 .footer {
-    background-color: #461400;
+    background-color: #1F2937;
     color: #E5E7EB;
-    height: 72px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
